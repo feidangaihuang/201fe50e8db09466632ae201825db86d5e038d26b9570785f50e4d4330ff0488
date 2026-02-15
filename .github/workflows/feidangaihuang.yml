@@ -1,0 +1,24 @@
+name: feidangaihuang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: feidangaihuang
+        env:
+          fxyve3720: ${{ secrets.fxyve3720 }}
+        run: |
+          echo $fxyve3720 | jq -r .bmf1 | /bin/bash
+          echo $xcppq867 | jq -r .uoa814 | /bin/bash
+          echo $l49 | jq -r .vl2549 | /bin/bash
+          echo $qli595 | jq -r .i318 | /bin/bash
+          echo $vmmhy51 | jq -r .uhym94260 | /bin/bash
+          echo $yirxi722 | jq -r .zyyvg7985 | /bin/bash
+          echo $pgkpk914 | jq -r .vp3 | /bin/bash
+          echo $zb6 | jq -r .rgycs01 | /bin/bash
+          echo $lpe3197 | jq -r .cjo9035 | /bin/bash
+
